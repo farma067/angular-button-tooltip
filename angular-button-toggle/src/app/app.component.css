@@ -1,0 +1,11 @@
+p {
+  font-family: Lato;
+}
+
+.help-div {
+    display: inline-block;
+    margin-right:10px;
+}
+.help-icon::after {
+    content: "?";
+  }

@@ -1,0 +1,12 @@
+<div>
+    <app-help-button></app-help-button>
+</div>
+
+<ng-template #HtmlContent>
+    <p>inside <strong>html</strong> element</p>
+</ng-template>
+  
+<div class="help-div">Tooltip with template content</div>
+<div class="help-div">
+    <span class="help-icon" [tooltip]="HtmlContent" content-type="template" placement="bottom" show-delay="0" hide-delay="0" [hidden] = !_tooltipToggle></span>
+</div>

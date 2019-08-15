@@ -1,0 +1,8 @@
+  <div>
+    <h2>Toggle</h2>
+    <p>{{_message}}</p>
+    <p>
+      <button (click)="enable()"  *ngIf="!_isButtonToggle">Enable</button>
+      <button (click)="disable()" *ngIf="_isButtonToggle">Disable</button>
+    </p>
+  </div>
